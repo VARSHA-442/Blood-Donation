@@ -1,0 +1,14 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 70px; /* space for fixed navbar */
+}
+body {
+  background-image: url('https://www.felixhospital.com/sites/default/files/2022-11/best-blood-bank-hospital-in-noida.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This makes it static while scrolling */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

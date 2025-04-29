@@ -1,0 +1,27 @@
+ 
+    /* src/styles/DonorList.css */
+.donor-list-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.donor-table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.donor-table th,
+.donor-table td{
+  border: 1px solid #ccc;
+  padding: 10px;
+  color:#333;
+}
+
+.donor-table th {
+  background-color: #f2f2f2;
+}
+h2{
+  color : #b71c1c;
+  margin:20px;
+}
