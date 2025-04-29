@@ -1,0 +1,37 @@
+.intro-container {
+    text-align: center;
+    padding: 60px 20px;
+   
+  }
+  
+  .intro-header h1 {
+    font-size: 2rem;
+    color: #d32f2f;
+  }
+  
+  .intro-header p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #1976d2;
+    font-weight: bold;
+  }
+  
+  .intro-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ef5350;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+  }
+  
+  .intro-buttons button:hover {
+    background-color: #d32f2f;
+  }
+  

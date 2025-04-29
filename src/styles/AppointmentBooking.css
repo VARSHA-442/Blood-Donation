@@ -1,0 +1,144 @@
+/* 
+.appointment-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.appointment-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.appointment-form button {
+  background-color: #b71c1c;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.appointment-form button:hover {
+  background-color: #d32f2f;
+}
+
+
+.appointment-container {
+  padding: 20px;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form input,
+.appointment-form select {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ */
+ .appointment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.appointment-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.appointment-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #b30000;
+}
+
+.appointment-form input,
+.appointment-form select {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.appointment-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.appointment-form button:hover {
+  background-color: #800000;
+}
+
+.doctor-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.doctor-card {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #f9f9f9;
+}
+
+.doctor-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-card.selected {
+  border: 2px solid #b30000;
+  background-color: #ffe6e6;
+}
